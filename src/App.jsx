@@ -17,7 +17,7 @@ export default function App() {
   
   // Estado para la mesa (Carga inicial desde localStorage si existe)
   const [numeroMesa, setNumeroMesa] = useState(() => {
-    return localStorage.getItem('mesaSeleccionada') || '01';
+    return localStorage.getItem('mesaSeleccionada') || '00';
   });
 
   // Estado para controlar los productos agregados al carrito
